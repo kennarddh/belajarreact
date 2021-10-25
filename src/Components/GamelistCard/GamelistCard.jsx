@@ -9,12 +9,12 @@ const GamelistCard = (props) => {
     return (
         <>
             <div className="gamelist-card">
-                <img src="card-image.png" class="image" alt="card" />
+                <img src="card-image.png" className="image" alt="card" />
                 <div className="body">
                     <h3 className="title">{props.title}</h3>
                     <p className="description">{props.description}</p>
                     <p className="played">Dimainkan {props.played}x</p>
-                    <a href="/detailGames" class="detail-wrap">
+                    <a href="/detailGames" className="detail-wrap">
                         <p className="detail">See Detail</p>
                         <img src="angle-right.svg" alt="angle right" />
                     </a>

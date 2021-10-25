@@ -1,0 +1,59 @@
+.wrap
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.wrap .image
+{
+    height: 100%;
+}
+.wrap .body
+{
+    padding-right: 10rem;
+}
+.wrap .body .name
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FCF8D9;
+}
+.wrap .body .score
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FCF8D9;
+}
+.wrap .body .email
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FCF8D9;
+}
+.wrap .button
+{
+    background: #E53045;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.wrap .button:hover
+{
+    background-color: transparent;
+    color: #E53045;
+    border: 1px #E53045 solid;
+}
