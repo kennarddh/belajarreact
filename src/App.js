@@ -11,6 +11,7 @@ import Playerlist from './Pages/Playerlist/Playerlist';
 import Profile from './Pages/Profile/Profile';
 import Gamedetails from './Pages/Gamedetails/Gamedetails';
 import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 const App = () => {
     return (
@@ -30,6 +31,9 @@ const App = () => {
                 </Route>
                 <Route path="/login">
                     <Login />
+                </Route>
+                <Route path="/register">
+                    <Register />
                 </Route>
             </Switch>
         </Router>

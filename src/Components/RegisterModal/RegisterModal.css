@@ -1,4 +1,4 @@
-.login-modal
+.register-modal
 {
     margin-right: -10rem;
     background-color: #FCF8D9;
@@ -10,7 +10,7 @@
     align-items: center;
     width: 15rem;
 }
-.login-modal h3
+.register-modal h3
 {
     margin-bottom: 1rem;
     font-style: normal;
@@ -19,14 +19,14 @@
     line-height: 39px;
     color: #0E565D;
 }
-.login-modal .form
+.register-modal .form
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.login-modal .form .text-input
+.register-modal .form .text-input
 {
     width: 100%;
     padding: 0.5rem 1rem;
