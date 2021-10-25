@@ -2,7 +2,7 @@ import React  from "react";
 
 // component
 import BackButton from '../../Components/BackButtton/BackButtton'
-import Navbar from '../../Components/Navbar/Navbar'
+import MemberNavbar from '../../Components/MemberNavbar/MemberNavbar'
 import Title from '../../Components/Title/Title'
 import GamedetailsTitle from '../../Components/GamedetailsTitle/GamedetailsTitle'
 import GamedetailsButton from '../../Components/GamedetailsButton/GamedetailsButton'
@@ -18,7 +18,7 @@ import './Gamedetails.css'
 const Gamedetails = () => {
     return (
         <>
-            <Navbar score="46" name="Player Name" />
+            <MemberNavbar score="46" name="Player Name" />
             <Title title="Game Details" />
             <section className="Gamedetails-detail">
                 <BackButton />

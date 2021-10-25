@@ -2,7 +2,7 @@ import React from "react"
 
 // component
 import GamelistCard from "../../Components/GamelistCard/GamelistCard"
-import Navbar from "../../Components/Navbar/Navbar"
+import MemberNavbar from "../../Components/MemberNavbar/MemberNavbar"
 import Title from "../../Components/Title/Title"
 import Search from "../../Components/Search/Search"
 
@@ -13,7 +13,7 @@ import "./Gamelist.css"
 const Gamelist = () => {
     return (
         <>
-            <Navbar score="46" name="Player Name" gamelist />
+            <MemberNavbar score="46" name="Player Name" gamelist />
             <Title title="Game List" />
             <Search />
             <section className="section-game">

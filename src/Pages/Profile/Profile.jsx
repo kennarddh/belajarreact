@@ -1,7 +1,7 @@
 import React from "react"
 
 // component
-import Navbar from "../../Components/Navbar/Navbar"
+import MemberNavbar from "../../Components/MemberNavbar/MemberNavbar"
 import Title from "../../Components/Title/Title"
 import PlayerProfile from "../../Components/PlayerProfile/PlayerProfile"
 
@@ -11,7 +11,7 @@ import './Profile.css'
 const Profile = () => {
     return (
         <>
-            <Navbar score="46" name="Player Name" profile />
+            <MemberNavbar score="46" name="Player Name" profile />
             <Title title="Profile" />
             <section className="profile">
                 <PlayerProfile name="Player Name" score="10" email="sunboy@gmail.com" />

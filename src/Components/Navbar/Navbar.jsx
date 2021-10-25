@@ -3,23 +3,19 @@ import React from "react"
 // component
 
 //styling
-import "./Navbar.css"
+import './Navbar.css'
 
 const Navbar = (props) => {
     return (
         <>
             <nav className="navbar">
                 <div className="left">
-                    <p className="item">{props.name}</p>
-                    <p className="item score">Score: {props.score}</p>
-                </div>
-                <div className="center">
-                    <a href={`${!('profile' in props) ? '/profile' : '#'}`} className={`item ${'profile' in props ? 'active' : ''}`}>Profile</a>
-                    <a href={`${!('playerlist' in props) ? '/playerlist' : '#'}`} className={`item ${'playerlist' in props ? 'active' : ''}`}>Player List</a>
-                    <a href={`${!('gamelist' in props) ? '/gamelist' : '#'}`} className={`item ${'gamelist' in props ? 'active' : ''}`}>Game List</a>
+                    <a href="/" className="item">Game Center</a>
                 </div>
                 <div className="right">
-                    <a href="#" className="item smaller">Logout</a>
+                    <a href={`${!('login' in props) ? '/login' : '#'}`} className="item active">Login</a>
+                    <a href={`${!('register' in props) ? '/register' : '#'}`} className="item">Register</a>
+                    <a href={`${!('gamelist' in props) ? '/gamelist' : '#'}`} className="item">Game List</a>
                 </div>
             </nav>
         </>
