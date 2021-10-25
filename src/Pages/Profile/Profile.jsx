@@ -13,7 +13,7 @@ const Profile = () => {
         <>
             <Navbar score="46" name="Player Name" profile />
             <Title title="Profile" />
-            <section class="profile">
+            <section className="profile">
                 <PlayerProfile name="Player Name" score="10" email="sunboy@gmail.com" />
             </section>
         </>

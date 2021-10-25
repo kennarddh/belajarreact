@@ -1,6 +1,7 @@
 import React from "react"
 
 // component
+import Button from '../Button/Button'
 
 //styling
 import './PlayerlistCard.css'
@@ -14,7 +15,7 @@ const PlayerlistCard = (props) => {
                     <h3>{props.name}</h3>
                     <p>Score: {props.score}</p>
                 </div>
-                <a href="#" className="button">See Detail</a>
+                <Button name="See Detail" />
             </div>
         </>
     )

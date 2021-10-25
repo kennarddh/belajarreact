@@ -1,6 +1,7 @@
 import React from "react"
 
 // component
+import Button from '../Button/Button'
 
 //styling
 import './PlayerProfile.css'
@@ -8,14 +9,14 @@ import './PlayerProfile.css'
 const PlayerProfile = (props) => {
     return (
         <>
-            <div class="wrap">
-                <img src="player-image.png" class="image" alt="profile" />
-                <div class="body">
-                    <h3 class="name">{props.name}</h3>
-                    <h3 class="score">Score: {props.score}</h3>
-                    <p class="email">{props.email}</p>
+            <div className="wrap">
+                <img src="player-image.png" className="image" alt="profile" />
+                <div className="body">
+                    <h3 className="name">{props.name}</h3>
+                    <h3 className="score">Score: {props.score}</h3>
+                    <p className="email">{props.email}</p>
                 </div>
-                <a href="#" class="button">Edit Profile</a>
+                <Button name="Edit Profile" />
             </div>
         </>
     )

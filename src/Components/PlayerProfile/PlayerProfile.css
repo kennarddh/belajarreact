@@ -39,21 +39,3 @@
     line-height: 39px;
     color: #FCF8D9;
 }
-.wrap .button
-{
-    background: #E53045;
-    border-radius: 8px;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-}
-.wrap .button:hover
-{
-    background-color: transparent;
-    color: #E53045;
-    border: 1px #E53045 solid;
-}
