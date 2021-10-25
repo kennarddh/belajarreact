@@ -10,7 +10,7 @@ const ShowIcon = (props) => {
     if ('play' in props.props) {
         return (
             <>
-                <img src="game-pad.svg" alt="game-pad" />
+                <img src="/asset/icon/game-pad.svg" alt="game-pad" />
             </>
         )
     } else {

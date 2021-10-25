@@ -10,7 +10,7 @@ const PlayerProfile = (props) => {
     return (
         <>
             <div className="wrap">
-                <img src="player-image.png" className="image" alt="profile" />
+                <img src="/asset/image/player-image.png" className="image" alt="profile" />
                 <div className="body">
                     <h3 className="name">{props.name}</h3>
                     <h3 className="score">Score: {props.score}</h3>

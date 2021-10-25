@@ -10,7 +10,7 @@ const Search = () => {
         <>
             <section className="search">
                 <div className="wrap">
-                    <img src="search.svg" className="image" alt="search" />
+                    <img src="/asset/icon/search.svg" className="image" alt="search" />
                     <input type="text" className="input" placeholder="Search" />
                 </div>
             </section>

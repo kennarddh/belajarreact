@@ -13,7 +13,7 @@ const Register = () => {
         <>
             <Navbar register />
             <div className="register-background" style={{
-                background: 'url(/background.jpg)'
+                background: 'url(/asset/image/background.jpg)'
             }}>
                 <h1>Join and Play with Friends</h1>
                 <RegisterModal />

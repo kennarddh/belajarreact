@@ -12,11 +12,15 @@ import Profile from './Pages/Profile/Profile';
 import Gamedetails from './Pages/Gamedetails/Gamedetails';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import Home from './Pages/Home/Home';
 
 const App = () => {
     return (
         <Router>
             <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
                 <Route path="/gamelist">
                     <Gamelist />
                 </Route>
@@ -34,6 +38,9 @@ const App = () => {
                 </Route>
                 <Route path="/register">
                     <Register />
+                </Route>
+                <Route path="*">
+                    <h1>404 Error Page Not Found</h1>
                 </Route>
             </Switch>
         </Router>

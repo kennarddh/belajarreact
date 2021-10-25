@@ -12,7 +12,7 @@ const Login = () => {
         <>
             <Navbar login />
             <div className="login-background" style={{
-                background: 'url(/background.jpg)'
+                background: 'url(/asset/image/background.jpg)'
             }}>
                 <h1>One Step Closer</h1>
                 <LoginModal />
