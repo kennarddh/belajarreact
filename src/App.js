@@ -9,6 +9,7 @@ import {
 import Gamelist from './Pages/Gamelist/Gamelist';
 import Playerlist from './Pages/Playerlist/Playerlist';
 import Profile from './Pages/Profile/Profile';
+import Gamedetails from './Pages/Gamedetails/Gamedetails';
 
 const App = () => {
     return (
@@ -22,6 +23,9 @@ const App = () => {
                 </Route>
                 <Route path="/profile">
                     <Profile />
+                </Route>
+                <Route path="/gamedetails">
+                    <Gamedetails />
                 </Route>
             </Switch>
         </Router>
