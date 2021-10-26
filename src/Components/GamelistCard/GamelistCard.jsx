@@ -14,7 +14,7 @@ const GamelistCard = (props) => {
                     <h3 className="title">{props.title}</h3>
                     <p className="description">{props.description}</p>
                     <p className="played">Dimainkan {props.played}x</p>
-                    <a href="/gamedetails" className="detail-wrap">
+                    <a href={`/gamedetails/${props.gamelink}`} className="detail-wrap">
                         <p className="detail">See Detail</p>
                         <img src="/asset/icon/angle-right.svg" alt="angle right" />
                     </a>

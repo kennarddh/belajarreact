@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
   Link
 } from "react-router-dom";
 
@@ -14,6 +15,9 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Home from './Pages/Home/Home';
 import NoMatch from './Pages/NoMatch/NoMatch';
+
+// Game
+import RockPaperScissors from './Pages/Game/RockPaperScissors/RockPaperScissors';
 
 const App = () => {
     return (
@@ -31,8 +35,11 @@ const App = () => {
                 <Route path="/profile">
                     <Profile />
                 </Route>
-                <Route path="/gamedetails">
+                <Route path="/gamedetails/:gamelink">
                     <Gamedetails />
+                </Route>
+                <Route path="/gamedetails">
+                    <Redirect to="/gamelist" />
                 </Route>
                 <Route path="/login">
                     <Login />
@@ -40,6 +47,13 @@ const App = () => {
                 <Route path="/register">
                     <Register />
                 </Route>
+
+                {/* Game */}
+                <Route path="/game/rock_paper_scissors">
+                    <RockPaperScissors />
+                </Route>
+
+                {/* 404 */}
                 <Route path="*">
                     <NoMatch />
                 </Route>

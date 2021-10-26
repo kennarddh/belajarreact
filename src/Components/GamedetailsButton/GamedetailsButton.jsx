@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 
 // component
 
@@ -24,7 +24,7 @@ const ShowIcon = (props) => {
 const GamedetailsButton = (props) => {
     return (
         <>
-            <a href="#" className="play-button">
+            <a href={`/game/${(props.link !== undefined) ? props.link : '#'}`} className="play-button">
                 <p className="item">{props.text}</p>
                 <ShowIcon props={props} />
             </a>

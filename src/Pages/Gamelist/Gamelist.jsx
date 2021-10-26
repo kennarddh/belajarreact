@@ -17,14 +17,14 @@ const Gamelist = () => {
             <Title title="Game List" />
             <Search />
             <section className="section-game">
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Papper Rock Scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
             </section>
         </>
     )

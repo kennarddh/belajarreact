@@ -1,4 +1,7 @@
-import React  from "react";
+import React from "react";
+import {
+    useParams
+} from "react-router-dom";
 
 // component
 import BackButton from '../../Components/BackButtton/BackButtton'
@@ -16,24 +19,26 @@ import './Gamedetails.css'
 
 
 const Gamedetails = () => {
+    const { gamelink } = useParams();
+
     return (
         <>
             <MemberNavbar score="46" name="Player Name" />
             <Title title="Game Details" />
             <section className="Gamedetails-detail">
                 <BackButton />
-                <GamedetailsTitle name="Papper Rock Scissors" played="10" />
+                <GamedetailsTitle name="Rock Paper Scissors" played="10" />
                 <div className="gamedetails-button">
-                    <GamedetailsButton text="Play Now" play />
+                    <GamedetailsButton text="Play Now" link={gamelink} play />
                     <GamedetailsStatus />
                     {/* <GamedetailsStatus played /> */}
                 </div>
                 <div className="list">
                     <GamedetailsPlayerListHeader>
                         <GamedetailsPlayerListItem no="1" name="Player name" score="55" />
-                        <GamedetailsPlayerListItem no="1" name="Player name" score="55" />
-                        <GamedetailsPlayerListItem no="1" name="Player name" score="55" />
-                        <GamedetailsPlayerListItem no="1" name="Player name" score="55" />
+                        <GamedetailsPlayerListItem no="2" name="Player name" score="55" />
+                        <GamedetailsPlayerListItem no="3" name="Player name" score="55" />
+                        <GamedetailsPlayerListItem no="4" name="Player name" score="55" />
                     </GamedetailsPlayerListHeader>
                     <GamedetailsDescription
                         description="Game ini merupakan game bla bla bla bla bla bla bla bla bla Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
