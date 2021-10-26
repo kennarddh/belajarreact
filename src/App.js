@@ -13,6 +13,7 @@ import Gamedetails from './Pages/Gamedetails/Gamedetails';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Home from './Pages/Home/Home';
+import NoMatch from './Pages/NoMatch/NoMatch';
 
 const App = () => {
     return (
@@ -38,6 +39,9 @@ const App = () => {
                 </Route>
                 <Route path="/register">
                     <Register />
+                </Route>
+                <Route path="*">
+                    <NoMatch />
                 </Route>
             </Switch>
         </Router>
