@@ -1,10 +1,11 @@
 .no-match {
     position: absolute;
     inset: 0;
-    background-color: white;
+    background-color: #272527;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .no-match .body {
@@ -19,5 +20,5 @@
     padding: 10px 30px;
 }
 .no-match h1 {
-    border-right: 1px solid black;
+    border-right: 1px solid white;
 }
