@@ -24,7 +24,7 @@ const ShowIcon = (props) => {
 const GamedetailsButton = (props) => {
     return (
         <>
-            <a href="game/index.html" className="play-button">
+            <a href="#" className="play-button">
                 <p className="item">{props.text}</p>
                 <ShowIcon props={props} />
             </a>

@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="left">
                         <a href="#" className="item">Login</a>
                         <a href="#" className="item">Register</a>
-                        <a href="gamelist.html" className="item">Game List</a>
+                        <a href="/gamelist" className="item">Game List</a>
                     </div>
                     <div className="right">
                         <a href="#"><img src="asset/icon/facebook.svg" alt="facebook" /></a>
