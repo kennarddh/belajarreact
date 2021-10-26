@@ -39,9 +39,6 @@ const App = () => {
                 <Route path="/register">
                     <Register />
                 </Route>
-                <Route path="*">
-                    <h1>404 Error Page Not Found</h1>
-                </Route>
             </Switch>
         </Router>
     )
