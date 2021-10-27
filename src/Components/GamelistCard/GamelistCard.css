@@ -18,6 +18,9 @@
     border: 1px solid #EDE3E3;
     border-radius: 10px;
 }
+.gamelist-card .body {
+    width: 100%;
+}
 .gamelist-card .body .title
 {
     margin-bottom: 1rem;

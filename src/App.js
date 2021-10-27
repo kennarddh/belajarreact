@@ -18,6 +18,7 @@ import NoMatch from './Pages/NoMatch/NoMatch';
 
 // Game
 import RockPaperScissors from './Pages/Game/RockPaperScissors/RockPaperScissors';
+import TicTacToe from './Pages/Game/TicTacToe/TicTacToe'
 
 const App = () => {
     return (
@@ -51,6 +52,9 @@ const App = () => {
                 {/* Game */}
                 <Route path="/game/rock_paper_scissors">
                     <RockPaperScissors />
+                </Route>
+                <Route path="/game/tic_tac_toe">
+                    <TicTacToe />
                 </Route>
 
                 {/* 404 */}

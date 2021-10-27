@@ -18,7 +18,7 @@ const Gamelist = () => {
             <Search />
             <section className="section-game">
                 <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
-                <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
+                <GamelistCard title="Tic Tac Toe" gamelink="tic_tac_toe" description="Tic tac toe ..." played="15" />
                 <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
                 <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
                 <GamelistCard title="Rock Paper Scissors" gamelink="rock_paper_scissors" description="Rock paper scissors is a hand game usually played between two people, in which ..." played="15" />
