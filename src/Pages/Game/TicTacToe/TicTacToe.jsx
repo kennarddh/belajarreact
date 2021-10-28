@@ -26,11 +26,6 @@ const TicTacToe = () => {
             [2, 4, 6]
         ]
 
-        console.log('calculate winner')
-        console.log(board[0] + " + " + board[1] + " + " + board[2])
-        console.log(board[3] + " + " + board[4] + " + " + board[5])
-        console.log(board[6] + " + " + board[7] + " + " + board[8])
-
         for (let i = 0; i < lines.length; i++) {
             const [a, b, c] = lines[i];
             if (board[a] && board[a] === board[b] && board[a] === board[c]) {
@@ -43,6 +38,48 @@ const TicTacToe = () => {
     const ResetGame = () => {
         SetBoard(Array(9).fill(null))
         SetResult('')
+    }
+
+    const ComputerChoice = (board, emptyIndex) => {
+        let boardTemp = board.slice()
+
+        let losePosibility = []
+        
+        for (let i = 0; i < emptyIndex.length; i++) {
+            boardTemp[emptyIndex[i]] = 'X'
+
+            let result = CalculateWinner(boardTemp)
+
+            if (result === 'X') {
+                losePosibility.push(emptyIndex[i])
+            }
+
+            boardTemp = board.slice()
+        }
+
+        let winPosibility = []
+        
+        for (let i = 0; i < emptyIndex.length; i++) {
+            boardTemp[emptyIndex[i]] = 'O'
+
+            let result = CalculateWinner(boardTemp)
+
+            if (result === 'O') {
+                winPosibility.push(emptyIndex[i])
+            }
+
+            boardTemp = board.slice()
+        }
+
+        if (losePosibility.length <= 0) {
+            return emptyIndex[Math.floor(Math.random() * emptyIndex.length)]
+        } else {
+            if (winPosibility.length <= 0) {
+                return losePosibility[Math.floor(Math.random() * losePosibility.length)]
+            } else {
+                return winPosibility[Math.floor(Math.random() * winPosibility.length)]
+            }
+        }
     }
 
     const HandleClick = (id) => {
@@ -98,7 +135,7 @@ const TicTacToe = () => {
                 return item
             })
     
-            const random = emptyIndex[Math.floor(Math.random() * emptyIndex.length)];
+            const random = ComputerChoice(board, emptyIndex);
     
             board[random] = 'O'
 
