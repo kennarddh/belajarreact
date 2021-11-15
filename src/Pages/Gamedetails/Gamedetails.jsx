@@ -18,15 +18,15 @@ import GamedetailsDescription from '../../Components/GamedetailsDescription/Game
 import './Gamedetails.css'
 
 
-const Gamedetails = () => {
+const Gamedetails = (props) => {
     const { gamelink } = useParams();
 
     return (
         <>
-            <MemberNavbar score="46" name="Player Name" />
+            <MemberNavbar score="46" name="Player Name" NowMode={props.NowMode} ToggleMode={props.ToggleMode} />
             <Title title="Game Details" />
             <section className="Gamedetails-detail">
-                <BackButton />
+                <BackButton DarkMode={props.NowMode === 'Dark mode' ? true : false} />
                 <GamedetailsTitle name="Rock Paper Scissors" played="10" />
                 <div className="gamedetails-button">
                     <GamedetailsButton text="Play Now" link={gamelink} play />

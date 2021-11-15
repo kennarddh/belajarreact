@@ -8,10 +8,10 @@ import RegisterModal from "../../Components/RegisterModal/RegisterModal"
 import './Register.css'
 
 
-const Register = () => {
+const Register = (props) => {
     return (
         <>
-            <Navbar register />
+            <Navbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} register />
             <div className="register-background" style={{
                 background: 'url(/asset/image/background.jpg)'
             }}>

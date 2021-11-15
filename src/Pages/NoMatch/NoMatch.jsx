@@ -7,10 +7,10 @@ import Navbar from "../../Components/Navbar/Navbar";
 import './NoMatch.css'
 
 
-const NoMatch = () => {
+const NoMatch = (props) => {
     return (
         <>
-            <Navbar />
+            <Navbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} />
             <div className="no-match">
                 <div className="body">
                     <h1>404</h1>

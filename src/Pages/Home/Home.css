@@ -28,14 +28,14 @@ section
 .home-header .body .text h1
 {
     width: 40rem;
-    color: white;
+    color: var(--tertiary-color);
     font-weight: 500;
     font-size: 76px;
     line-height: 86px;
 }
 .home-header .body .text p
 {
-    color: #FCF8D9;
+    color: var(--primary-color);
     font-weight: 400;
     font-size: 30px;
     line-height: 46px;
@@ -43,7 +43,7 @@ section
 }
 .play-now-home
 {
-    background-color: #272527;
+    background-color: var(--background-color);
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20rem 2rem 0 2rem;
@@ -70,7 +70,7 @@ pre {
 }
 .play-now-home .body h3
 {
-    color: white;
+    color: var(--tertiary-color);
     font-style: normal;
     font-weight: 500;
     font-size: 76px;
@@ -82,7 +82,7 @@ pre {
     font-weight: normal;
     font-size: 30px;
     line-height: 46px;
-    color: #8BA5FF;
+    color: var(--tertiary-color);
 }
 .special-offers
 {
@@ -94,7 +94,7 @@ pre {
     font-weight: 500;
     font-size: 76px;
     line-height: 86px;
-    color: #FFFFFF;
+    color: var(--tertiary-color);
 }
 .special-offers .body
 {
@@ -152,7 +152,7 @@ pre {
     font-size: 76px;
     line-height: 86px;
     margin-bottom: 2rem;
-    color: #FFFFFF;
+    color: var(--tertiary-color);
 }
 .enjoy .body .subscribe
 {
@@ -163,7 +163,8 @@ pre {
 }
 .enjoy .body .subscribe .email
 {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--primary-box-color);
+    fill: rgba(255, 255, 255, 0.08);
     border-radius: 5px;
     padding: 1rem;
     padding-right: 15rem;

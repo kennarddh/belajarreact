@@ -9,7 +9,7 @@ import './PlayerProfile.css'
 const PlayerProfile = (props) => {
     return (
         <>
-            <div className="wrap">
+            <div className="player-profile-wrap">
                 <img src="/asset/image/player-image.png" className="image" alt="profile" />
                 <div className="body">
                     <h3 className="name">{props.name}</h3>

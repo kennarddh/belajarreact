@@ -1,4 +1,4 @@
-.wrap
+.player-profile-wrap
 {
     width: 60%;
     height: 100%;
@@ -7,35 +7,35 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-.wrap .image
+.player-profile-wrap .image
 {
-    height: 100%;
+    height: 10rem;
 }
-.wrap .body
+.player-profile-wrap .body
 {
     padding-right: 10rem;
 }
-.wrap .body .name
+.player-profile-wrap .body .name
 {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 59px;
-    color: #FCF8D9;
+    color: var(--tertiary-color);
 }
-.wrap .body .score
+.player-profile-wrap .body .score
 {
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 59px;
-    color: #FCF8D9;
+    color: var(--tertiary-color);
 }
-.wrap .body .email
+.player-profile-wrap .body .email
 {
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
-    color: #FCF8D9;
+    color: var(--tertiary-color);
 }

@@ -1,67 +1,67 @@
-.member-navbar
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0E565D;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+.member-navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0e565d;
+	padding: 1rem 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
-
-.member-navbar .right
-{
-    margin-right: 3rem;
+.member-navbar .right {
+	margin-right: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
-.member-navbar .left
-{
-    height: 22px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 3rem;
-    align-items: center;
+.member-navbar .right .toggle-mode {
+	user-select: none;
+	cursor: pointer;
 }
-.member-navbar .left .item.score
-{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
+.member-navbar .left {
+	height: 22px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 3rem;
+	align-items: center;
 }
-.member-navbar .right .item, .member-navbar .left .item, .member-navbar .center .item
-{
-    text-decoration: none;
-    color: #FCF8D9;
-    margin-right: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
+.member-navbar .left .item.score {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
 }
-.member-navbar .right .item
-{
-    margin: 0 0.5rem;
+.member-navbar .right .item,
+.member-navbar .left .item,
+.member-navbar .center .item {
+	text-decoration: none;
+	color: #fcf8d9;
+	margin-right: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
 }
-.member-navbar .center .item
-{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+.member-navbar .right .item {
+	margin: 0 0.5rem;
 }
-.member-navbar .item.smaller
-{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+.member-navbar .center .item {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
 }
-.member-navbar .item.active
-{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+.member-navbar .item.smaller {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+.member-navbar .item.active {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
 }

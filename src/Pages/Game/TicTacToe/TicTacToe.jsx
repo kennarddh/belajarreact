@@ -8,7 +8,7 @@ import Title from "../../../Components/Title/Title";
 import './TicTacToe.css'
 
 
-const TicTacToe = () => {
+const TicTacToe = (props) => {
     const [Board, SetBoard] = useState(Array(9).fill(null))
     const [Result, SetResult] = useState('')
     const [PlayerScore, SetPlayerScore] = useState(0)
@@ -176,7 +176,7 @@ const TicTacToe = () => {
 
     return (
         <>
-            <MemberNavbar name="Player Name" score="46" />
+            <MemberNavbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} name="Player Name" score="46" />
             <Title title="Tic Tac Toe" />
             <div className="tic-tac-toe">
                 <div className="score">

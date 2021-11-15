@@ -8,10 +8,10 @@ import Footer from "../../Components/Footer/Footer"
 import './Home.css'
 
 
-const Home = () => {
+const Home = (props) => {
     return (
         <>
-            <Navbar />
+            <Navbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} />
             <section className="home-header">
                 <img src="asset/image/background-landing-page-1.jpg" alt="Background" />
                 <div className="body">
@@ -39,7 +39,7 @@ No installs required, you can play right now!
                 </div>
             </section>
             <div className="background-2" style={{
-                background: 'url(asset/image/background-landing-page-3.jpg)'
+                background: `url(${props.NowMode === 'Dark mode' ? 'asset/image/background-landing-page-3.jpg' : 'asset/image/background-landing-page-3-light.jpg'})`
             }}>
                 <section className="special-offers">
                     <h3>Special Offers</h3>

@@ -1,24 +1,21 @@
-.GamedetailsStatus
-{
-    background-color: #C4C4C4;
-    border-radius: 10px;
-    width: 48%;
-    padding: 2rem 3rem;
-    box-sizing: border-box;
-    display: flex;
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: center;
+.GamedetailsStatus {
+	background-color: #c4c4c4;
+	border-radius: 10px;
+	width: 48%;
+	padding: 2rem 3rem;
+	box-sizing: border-box;
+	display: flex;
+	text-decoration: none;
+	flex-direction: row;
+	justify-content: center;
 }
-.GamedetailsStatus .item
-{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 34px;
-    color: #FCF8D9;
+.GamedetailsStatus .item {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 34px;
+	color: var(--primary-color);
 }
-.GamedetailsStatus.played
-{
-    background-color: #0E565D;
+.GamedetailsStatus.played {
+	background-color: #0e565d;
 }

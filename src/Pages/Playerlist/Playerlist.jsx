@@ -8,10 +8,10 @@ import PlayerlistCard from "../../Components/PlayerlistCard/PlayerlistCard"
 //styling
 import './Playerlist.css'
 
-const Playerlist = () => {
+const Playerlist = (props) => {
     return (
         <>
-            <MemberNavbar score="46" name="Player Name" playerlist />
+            <MemberNavbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} score="46" name="Player Name" playerlist />
             <Title title="Player List" />
             <div className="section-player">
                 <PlayerlistCard name="Player Name" score="10" />

@@ -1,24 +1,21 @@
-.GamedetailsPlayerListHeader
-{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FCF8D9;
-    background-color: #0E565D;
-    border-radius: 10px 10px 0px 0px;
-    box-sizing: border-box;
-    padding: 2rem 1rem;
+.GamedetailsPlayerListHeader {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--primary-color);
+	background-color: #0e565d;
+	border-radius: 10px 10px 0px 0px;
+	box-sizing: border-box;
+	padding: 2rem 1rem;
 }
-.playerlist
-{
-    width: 30%;
+.playerlist {
+	width: 30%;
 }
-.playerlist .list-player
-{
-    padding: 0.5rem 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #FCF8D9;
-    border-radius: 0 0 10px 10px;
+.playerlist .list-player {
+	padding: 0.5rem 0;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-color);
+	border-radius: 0 0 10px 10px;
 }

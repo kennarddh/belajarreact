@@ -7,5 +7,5 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 39px;
-    color: #FCF8D9;
+    color: var(--primary-color);
 }

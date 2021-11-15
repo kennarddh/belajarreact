@@ -8,10 +8,10 @@ import PlayerProfile from "../../Components/PlayerProfile/PlayerProfile"
 //styling
 import './Profile.css'
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <>
-            <MemberNavbar score="46" name="Player Name" profile />
+            <MemberNavbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} score="46" name="Player Name" profile />
             <Title title="Profile" />
             <section className="profile">
                 <PlayerProfile name="Player Name" score="10" email="sunboy@gmail.com" />

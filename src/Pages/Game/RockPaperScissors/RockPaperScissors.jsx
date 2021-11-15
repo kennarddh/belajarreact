@@ -8,7 +8,7 @@ import Title from "../../../Components/Title/Title";
 import './RockPaperScissors.css'
 
 
-const RockPaperScissors = () => {
+const RockPaperScissors = (props) => {
     const [Result, SetResult] = useState("")
 
     const [ComputerChoice, SetComputerChoice] = useState("")
@@ -76,7 +76,7 @@ const RockPaperScissors = () => {
 
     return (
         <>
-            <MemberNavbar name="Player Name" score="46" />
+            <MemberNavbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} name="Player Name" score="46" />
             <Title title="Rock paper scissors" />
             <div className="rock-paper-scissors-game">
                 <div className="player">

@@ -10,10 +10,10 @@ import Search from "../../Components/Search/Search"
 import "./Gamelist.css"
 
 
-const Gamelist = () => {
+const Gamelist = (props) => {
     return (
         <>
-            <MemberNavbar score="46" name="Player Name" gamelist />
+            <MemberNavbar score="46" name="Player Name" NowMode={props.NowMode} ToggleMode={props.ToggleMode} gamelist />
             <Title title="Game List" />
             <Search />
             <section className="section-game">

@@ -2,7 +2,7 @@
 {
     padding: 1rem;
     margin-bottom: 2rem;
-    background-color: #FCF8D9;
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+    color: var(--secondary-color);
 }
 .gamelist-card .body .description
 {
@@ -37,7 +37,7 @@
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
-    color: #000000;
+    color: var(--secondary-color);
 }
 .gamelist-card .body .played
 {
@@ -46,7 +46,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    color: #AFA1A1;
+    color: var(--secondary-color);
 }
 .gamelist-card .body .detail-wrap .detail
 {

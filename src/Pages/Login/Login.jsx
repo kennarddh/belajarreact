@@ -7,10 +7,10 @@ import LoginModal from "../../Components/LoginModal/LoginModal"
 //styling
 import './Login.css'
 
-const Login = () => {
+const Login = (props) => {
     return (
         <>
-            <Navbar login />
+            <Navbar NowMode={props.NowMode} ToggleMode={props.ToggleMode} login />
             <div className="login-background" style={{
                 background: 'url(/asset/image/background.jpg)'
             }}>
