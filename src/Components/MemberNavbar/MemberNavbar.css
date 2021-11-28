@@ -27,6 +27,13 @@
 	margin-left: 3rem;
 	align-items: center;
 }
+.member-navbar .center {
+	height: 22px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 3rem;
+	align-items: center;
+}
 .member-navbar .left .item.score {
 	font-style: normal;
 	font-weight: 300;

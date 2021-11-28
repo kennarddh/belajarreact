@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 // component
 
@@ -24,10 +25,12 @@ const ShowIcon = (props) => {
 const GamedetailsButton = (props) => {
     return (
         <>
-            <a href={`/game/${(props.link !== undefined) ? props.link : '#'}`} className="play-button">
-                <p className="item">{props.text}</p>
-                <ShowIcon props={props} />
-            </a>
+            <Link to={`/game/${(props.link !== undefined) ? props.link : '#'}`}>
+                <div className="play-button">
+                    <p className="item">{props.text}</p>
+                    <ShowIcon props={props} />
+                </div>
+            </Link>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // component
 
@@ -10,20 +11,20 @@ const Navbar = (props) => {
 		<>
 			<nav className='navbar'>
 				<div className='left'>
-					<a href='/' className='item'>
-						Game Center
-					</a>
+					<Link to='/'>
+						<p className='item'>Game Center</p>
+					</Link>
 				</div>
 				<div className='right'>
-					<a href={`${!('login' in props) ? '/login' : '#'}`} className={`item${'login' in props ? ' active' : ''}`}>
-						Login
-					</a>
-					<a href={`${!('register' in props) ? '/register' : '#'}`} className={`item${'register' in props ? ' active' : ''}`}>
-						Register
-					</a>
-					<a href={`${!('gamelist' in props) ? '/gamelist' : '#'}`} className={`item${'gamelist' in props ? ' active' : ''}`}>
-						Game List
-					</a>
+					<Link to={`${!('login' in props) ? '/login' : '#'}`}>
+						<p className={`item${'login' in props ? ' active' : ''}`}>Login</p>
+					</Link>
+					<Link to={`${!('register' in props) ? '/register' : '#'}`}>
+						<p className={`item${'register' in props ? ' active' : ''}`}>Register</p>
+					</Link>
+					<Link to={`${!('gamelist' in props) ? '/gamelist' : '#'}`}>
+						<p className={`item${'gamelist' in props ? ' active' : ''}`}>Game List</p>
+					</Link>
 					<p className='item smaller toggle-mode' onClick={props.ToggleMode}>
 						{props.NowMode}
 					</p>

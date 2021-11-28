@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // component
 
@@ -14,15 +15,15 @@ const MemberNavbar = (props) => {
 					<p className='item score'>Score: {props.score}</p>
 				</div>
 				<div className='center'>
-					<a href={`${!('profile' in props) ? '/profile' : '#'}`} className={`item ${'profile' in props ? 'active' : ''}`}>
-						Profile
-					</a>
-					<a href={`${!('playerlist' in props) ? '/playerlist' : '#'}`} className={`item ${'playerlist' in props ? 'active' : ''}`}>
-						Player List
-					</a>
-					<a href={`${!('gamelist' in props) ? '/gamelist' : '#'}`} className={`item ${'gamelist' in props ? 'active' : ''}`}>
-						Game List
-					</a>
+					<Link to={`${!('profile' in props) ? '/profile' : '#'}`}>
+						<p className={`item ${'profile' in props ? 'active' : ''}`}>Profile</p>
+					</Link>
+					<Link to={`${!('playerlist' in props) ? '/playerlist' : '#'}`}>
+						<p className={`item ${'playerlist' in props ? 'active' : ''}`}>Player List</p>
+					</Link>
+					<Link to={`${!('gamelist' in props) ? '/gamelist' : '#'}`}>
+						<p className={`item ${'gamelist' in props ? 'active' : ''}`}>Game List</p>
+					</Link>
 				</div>
 				<div className='right'>
 					<p className='item smaller toggle-mode' onClick={props.ToggleMode}>
