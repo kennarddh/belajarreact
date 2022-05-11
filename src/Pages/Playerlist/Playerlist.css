@@ -1,0 +1,7 @@
+.section-player {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 3rem 5rem 0 5rem;
+}

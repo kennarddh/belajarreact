@@ -1,0 +1,16 @@
+.login-background {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.login-background h1 {
+	width: 18rem;
+	margin-right: 5rem;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 68px;
+	color: var(--primary-color);
+}

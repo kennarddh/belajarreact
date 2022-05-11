@@ -1,0 +1,16 @@
+.back-button {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	margin-bottom: 1rem;
+    text-decoration: none;
+}
+.back-button p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--primary-color);
+	margin-left: 1rem;
+}

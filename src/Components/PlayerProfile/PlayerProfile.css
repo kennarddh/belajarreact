@@ -1,0 +1,41 @@
+.player-profile-wrap
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.player-profile-wrap .image
+{
+    height: 10rem;
+}
+.player-profile-wrap .body
+{
+    padding-right: 10rem;
+}
+.player-profile-wrap .body .name
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--tertiary-color);
+}
+.player-profile-wrap .body .score
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--tertiary-color);
+}
+.player-profile-wrap .body .email
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--tertiary-color);
+}

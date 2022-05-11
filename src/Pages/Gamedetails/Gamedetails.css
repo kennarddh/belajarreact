@@ -1,0 +1,20 @@
+.Gamedetails-detail
+{
+    padding: 3rem 10rem 0 10rem;
+}
+.Gamedetails-detail .list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+}
+.gamedetails-button
+{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

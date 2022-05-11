@@ -1,0 +1,38 @@
+.playerlist-card {
+	width: 30rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	background: var(--primary-color);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.playerlist-card .image {
+	height: 100%;
+	border: 1px solid #ede3e3;
+	border-radius: 10px;
+}
+.playerlist-card .body {
+	height: 100%;
+	padding-right: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.playerlist-card .body h3 {
+	margin-bottom: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--secondary-color);
+}
+.playerlist-card .body p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--secondary-color);
+}

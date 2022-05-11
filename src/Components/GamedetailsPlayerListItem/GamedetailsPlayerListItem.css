@@ -1,0 +1,17 @@
+.GamedetailsPlayerListItem {
+	padding: 1rem 2rem;
+	border-bottom: 0.5px #c4c4c4 solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.GamedetailsPlayerListItem p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--secondary-color);
+}
+.GamedetailsPlayerListItem:last-child {
+	border-bottom: none;
+}

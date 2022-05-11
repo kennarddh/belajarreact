@@ -1,0 +1,21 @@
+.GamedetailsPlayerListHeader {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--primary-color);
+	background-color: #0e565d;
+	border-radius: 10px 10px 0px 0px;
+	box-sizing: border-box;
+	padding: 2rem 1rem;
+}
+.playerlist {
+	width: 30%;
+}
+.playerlist .list-player {
+	padding: 0.5rem 0;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-color);
+	border-radius: 0 0 10px 10px;
+}
