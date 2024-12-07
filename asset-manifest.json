@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/belajarreact/static/css/main.fd5e05ca.chunk.css",
+    "main.js": "/belajarreact/static/js/main.a1fd710c.chunk.js",
+    "main.js.map": "/belajarreact/static/js/main.a1fd710c.chunk.js.map",
+    "runtime-main.js": "/belajarreact/static/js/runtime-main.bd4963f2.js",
+    "runtime-main.js.map": "/belajarreact/static/js/runtime-main.bd4963f2.js.map",
+    "static/js/2.16f0aab0.chunk.js": "/belajarreact/static/js/2.16f0aab0.chunk.js",
+    "static/js/2.16f0aab0.chunk.js.map": "/belajarreact/static/js/2.16f0aab0.chunk.js.map",
+    "static/js/3.483a2d36.chunk.js": "/belajarreact/static/js/3.483a2d36.chunk.js",
+    "static/js/3.483a2d36.chunk.js.map": "/belajarreact/static/js/3.483a2d36.chunk.js.map",
+    "index.html": "/belajarreact/index.html",
+    "static/css/main.fd5e05ca.chunk.css.map": "/belajarreact/static/css/main.fd5e05ca.chunk.css.map",
+    "static/js/2.16f0aab0.chunk.js.LICENSE.txt": "/belajarreact/static/js/2.16f0aab0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd4963f2.js",
+    "static/js/2.16f0aab0.chunk.js",
+    "static/css/main.fd5e05ca.chunk.css",
+    "static/js/main.a1fd710c.chunk.js"
+  ]
+}
